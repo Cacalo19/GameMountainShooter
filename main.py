@@ -1,6 +1,8 @@
-import pygame # Adicione isso
+import pygame
+
 
 pygame.init() # Adicione isso (ESSENCIAL)
+pygame.mixer.init()
 
 from code.Game import Game
 
